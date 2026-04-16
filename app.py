@@ -21,8 +21,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🚀 Quant AI Analyst Pro")
-st.caption("Real-time AI-powered financial risk intelligence")
+st.title("QuantInsight-AI")
+st.caption("Real-time stock analysis and insights")
 
 # =========================
 # 🔤 Input
