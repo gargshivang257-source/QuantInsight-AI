@@ -10,7 +10,7 @@ import re
 # =========================
 # 🎨 UI Styling
 # =========================
-st.set_page_config(page_title="Quantsight-AI", layout="wide")
+st.set_page_config(page_title="Quantinsight-AI", layout="wide")
 
 st.markdown("""
 <style>
