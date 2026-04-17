@@ -65,20 +65,51 @@ def get_sentiment(text: str):
 
     except Exception as e:
         return {"error": str(e)}
+# import requests
+
+# def get_news(ticker):
+#     API_KEY = "7263315cb9184804b1741fe9932e2258"
+
+#     url = f"https://newsapi.org/v2/everything?q={ticker}&language=en&sortBy=publishedAt&apiKey={API_KEY}"
+
+#     response = requests.get(url).json()
+
+#     articles = response.get("articles", [])
+
+#     headlines = []
+
+#     for article in articles[:3]:
+#         headlines.append(article["title"])
+
+#     return " ".join(headlines)
 import requests
 
 def get_news(ticker):
-    API_KEY = "7263315cb9184804b1741fe9932e2258"
+    
+    API_KEY = "7263315cb9184804b1741fe9932e2258" 
+    
+    # Optional but recommended: force high-quality financial domains to avoid weird language blogs
+    trusted_domains = "yahoo.com,bloomberg.com,reuters.com,cnbc.com,wsj.com,marketwatch.com"
 
-    url = f"https://newsapi.org/v2/everything?q={ticker}&language=en&sortBy=publishedAt&apiKey={API_KEY}"
+    url = f"https://newsapi.org/v2/everything?q={ticker}&language=en&domains={trusted_domains}&sortBy=publishedAt&apiKey={API_KEY}"
 
-    response = requests.get(url).json()
+    try:
+        response = requests.get(url).json()
+        articles = response.get("articles", [])
 
-    articles = response.get("articles", [])
+        headlines = []
+        for article in articles[:3]:
+            # Some APIs return "[Removed]" for deleted articles, good to filter out
+            title = article.get("title", "")
+            if title and title != "[Removed]":
+                # Remove any trailing periods the headline might already have to avoid double periods
+                clean_title = title.rstrip('.') 
+                headlines.append(clean_title)
 
-    headlines = []
+        # Join the headlines with a period and a space!
+        # Adding a final period at the end so the last sentence splits correctly too.
+        return ". ".join(headlines) + "."
 
-    for article in articles[:3]:
-        headlines.append(article["title"])
-
-    return " ".join(headlines)
+    except Exception as e:
+        print(f"Error fetching news for {ticker}: {e}")
+        return ""
