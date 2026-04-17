@@ -16,15 +16,15 @@ AI-powered quantitative risk analysis platform combining technical indicators, r
 
 ## 📷 Screenshots
 
-<img width="1902" height="890" alt="image" src="https://github.com/user-attachments/assets/ad15d918-4f1c-4556-a7fc-81afda52dc81" />
-<img width="1911" height="892" alt="image" src="https://github.com/user-attachments/assets/bbd2a471-8c72-465d-8fb1-ff0d1e1d95c5" />
-<img width="1892" height="788" alt="image" src="https://github.com/user-attachments/assets/08d6b762-cc19-40fe-bb61-65b763c4644c" />
-<img width="1888" height="725" alt="image" src="https://github.com/user-attachments/assets/239de613-2ea4-4138-8d02-294dd1e05b9e" />
-<img width="1854" height="740" alt="image" src="https://github.com/user-attachments/assets/5c007b38-8c72-406b-8d93-ea0372d637df" />
-<img width="1906" height="886" alt="image" src="https://github.com/user-attachments/assets/7695f954-2e84-46d9-8a1b-f0522a7f0321" />
-<img width="1903" height="883" alt="image" src="https://github.com/user-attachments/assets/d4c90325-85ed-47c3-92bb-aec5d20cb458" />
-<img width="1901" height="891" alt="image" src="https://github.com/user-attachments/assets/9e0f4258-1db5-478a-9cc5-a81e47cbdf81" />
-<img width="1897" height="845" alt="image" src="https://github.com/user-attachments/assets/53aff1ef-92a2-4de3-aba8-64f3409c317f" />
+<img width="1908" height="890" alt="image" src="https://github.com/user-attachments/assets/12e7a989-4327-4345-9f4f-de0e62a3cade" />
+<img width="1898" height="845" alt="image" src="https://github.com/user-attachments/assets/8250bca5-c5a3-4a2d-8a69-077bddf58e54" />
+<img width="1891" height="767" alt="image" src="https://github.com/user-attachments/assets/a0adbb6e-f3be-4edc-b745-150eb0f97780" />
+<img width="1899" height="891" alt="image" src="https://github.com/user-attachments/assets/23872c6c-aca8-4146-8a08-ec3478c3a3e6" />
+<img width="1896" height="901" alt="image" src="https://github.com/user-attachments/assets/f3c82da8-d48b-4746-a1ed-eaea1eb3d3fe" />
+<img width="1900" height="902" alt="image" src="https://github.com/user-attachments/assets/6b734437-cac3-41a4-a8ad-1a97b4a850e3" />
+<img width="1904" height="905" alt="image" src="https://github.com/user-attachments/assets/bb27e69e-f7af-42c3-a05a-aa70f3e8030b" />
+<img width="1899" height="889" alt="image" src="https://github.com/user-attachments/assets/34b06b5e-27d4-46ca-9a3e-dbe03912531a" />
+
 
 ---
 
