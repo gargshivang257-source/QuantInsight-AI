@@ -1,11 +1,11 @@
 from tools import get_stock_metrics, get_sentiment
 from google import genai
 import os
+import streamlit as st
 
-# 🔑 Create client
+api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-
+client = genai.Client(api_key=api_key)
 import time
 def safe_generate(prompt):
     for i in range(3):
